@@ -92,26 +92,4 @@ Accessed WebServers via Load Balancer DNS, confirmed scaling works.
 
 Verified logs in S3, monitoring in CloudWatch, and notifications in SNS.
 
-🏆 Key Points to Explain in Interview
 
-Architecture Goal: Designed a highly available, secure, and scalable 3-tier infrastructure.
-
-Best Practices Used:
-
-Multi-AZ deployment
-
-Public & private subnet separation
-
-Bastion host for secure SSH
-
-NAT Gateway for private internet access
-
-Auto Scaling with Load Balancer
-
-Monitoring via CloudWatch
-
-Centralized logging with VPC Flow Logs in S3
-
-Notifications with SNS
-
-Business Value: Ensures scalability, security, high availability, and monitoring for production workloads.
